@@ -14,6 +14,7 @@
 		DE153D3119F420A000B80DDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE153D3019F420A000B80DDA /* Images.xcassets */; };
 		DE153D3419F420A000B80DDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DE153D3219F420A000B80DDA /* LaunchScreen.xib */; };
 		DE153D4019F420A000B80DDA /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DE153D3F19F420A000B80DDA /* Git_TestTests.m */; };
+		DE153D4B19F4246000B80DDA /* CCTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DE153D4A19F4246000B80DDA /* CCTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		DE153D3919F420A000B80DDA /* Git TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Git TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE153D3E19F420A000B80DDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE153D3F19F420A000B80DDA /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DE153D4919F4246000B80DDA /* CCTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCTest.h; sourceTree = "<group>"; };
+		DE153D4A19F4246000B80DDA /* CCTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		DE153D1719F420A000B80DDA = {
 			isa = PBXGroup;
 			children = (
+				DE153D4919F4246000B80DDA /* CCTest.h */,
+				DE153D4A19F4246000B80DDA /* CCTest.m */,
 				DE153D2219F420A000B80DDA /* Git Test */,
 				DE153D3C19F420A000B80DDA /* Git TestTests */,
 				DE153D2119F420A000B80DDA /* Products */,
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE153D2C19F420A000B80DDA /* ViewController.m in Sources */,
+				DE153D4B19F4246000B80DDA /* CCTest.m in Sources */,
 				DE153D2919F420A000B80DDA /* AppDelegate.m in Sources */,
 				DE153D2619F420A000B80DDA /* main.m in Sources */,
 			);
